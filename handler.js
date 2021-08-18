@@ -6,9 +6,9 @@ module.exports.hello = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: 'Go Serverless v2.0! Your function executed successfully!',
+        message: 'My SLS Demo!!',
         input: event,
-        version: 'v1.0',
+        version: 'v2.0',
         timestamp: moment().unix(),
       },
       null,
