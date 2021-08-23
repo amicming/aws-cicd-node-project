@@ -6,7 +6,7 @@ module.exports.hello = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: 'My SLS Demo!!',
+        message: 'My SLS Demo Today!',
         input: event,
         version: 'v2.0',
         timestamp: moment().unix(),
